@@ -8,17 +8,17 @@ if used with mac, then start the commands with ./gradlew
 
 -To run these tests, execute the following commands:
 
-//this will get the dependencies.
-1) gradle                                         
+###this will get the dependencies. <br />
+gradle                                         
 
-//this will run the post load simulation.
+###this will run the post load simulation. <br />
 gradle gatlingRun-PostSimulation      
 
-//this will add a certain amount of concurrent users per second simulation.
+###this will add a certain amount of concurrent users per second simulation. <br />
 gradle gatlingRun-GetRampUpUsersSimulation    
 
-//this will run a certain amount of concurrent users for a specific period of time.
+###this will run a certain amount of concurrent users for a specific period of time. <br />
 gradle gatlingRun-GetConstantUsersSimulation   
 
-//this will hit the system with a certain amount of concurrent users for one time.
+###this will hit the system with a certain amount of concurrent users for one time. <br />
 gradle gatlingRun-GetAtOnceSimulation         
